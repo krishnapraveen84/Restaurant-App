@@ -119,9 +119,8 @@ class Home extends Component {
         </ul>
       </>
     )
-
   }
-  
+
   renderDiffViews = () => {
     const {status} = this.state
     switch (status) {
@@ -135,6 +134,7 @@ class Home extends Component {
         return null
     }
   }
+
   render() {
     const {count} = this.state
     return (
